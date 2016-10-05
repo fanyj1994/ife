@@ -1,0 +1,147 @@
+/*引入在线字体或自备字体*/
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+}
+.clear:after {
+	content: "";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+
+h1 {
+	color: #0000FF;
+}
+
+h2 {
+	font-size: 14px;
+}
+a {
+	text-transform: uppercase;
+	word-spacing: 1em;
+}
+
+p {
+	font-size: 12px;
+	color: yellow;
+	background-color: #000;
+	text-indent: 2em;
+	font-family: "Bitstream Vera Serif Bold";
+}
+img {
+	border: 2px solid red;
+}
+
+/*任务6*/
+.center1 {
+	background-color: #ff00ff;
+	width: 960px;
+	height: 150px;
+	margin: 0 auto;
+}
+.center2 {
+	background-color: #00ffff;
+	width: 960px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 160px;
+	overflow: hidden;
+	position: relative;
+}
+.contain {
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background-color: #ff00ff;
+}
+.right {
+	height: 150px;
+	margin-left: 160px;
+	background-color: #00ffff;
+}
+
+.div1 {
+	width: 150px;
+	height: 150px;
+	float: left;
+	background-color: #00ffff;
+}
+.div2 {
+	margin-left: 160px;
+	height: 150px;
+	background-color: #ff00ff;
+}
+
+/*三布局*/
+.three-row {
+	width: 85%;
+	margin: 0 auto;
+	height: 200px;
+	position: relative;
+}
+.three-row .left {
+	width: 100px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	left: 0;top: 0;
+}
+.three-row .center {
+	margin: 0 110px;
+	background-color: #aaa;
+	height: 200px;
+}
+.three-row .right {
+	width: 100px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.fLeft {
+	width: 100px;
+	height: 200px;
+	background-color: #aaa;
+	float: left;
+}
+.fRight {
+	width: 100px;
+	height: 200px;
+	background-color: #aaa;
+	float: right;
+}
+.middle {
+	margin: 0 110px;
+	height: 200px;
+	background-color: #999;
+}
+
+.float-contain {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #ff0000;
+}
+.float-contain div {
+	float: left;
+	width: 300px;
+	height: 300px;
+	background-color: #0000ff;
+	margin: 5px;
+}
